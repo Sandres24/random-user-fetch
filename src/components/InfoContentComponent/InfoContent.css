@@ -35,6 +35,7 @@
     font-size: 1.2rem;
     border-radius: 50%;
     padding: .5rem;
+    cursor: pointer;
 }
 
 .phone {
@@ -47,6 +48,7 @@
 
 .hr {
     background: #F7F7F7;
+    box-shadow: 0 0 1px gray;
     width: 100%;
     height: 3px;
     border-radius: 1rem;
@@ -59,27 +61,40 @@
 }
 
 .overview {
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-flow: column nowrap;
 }
 
 .contact {
     background: rgb(240, 237, 237);
+    box-shadow: 0 0 5px 1px gray;
     text-align: left;
-    width: 90%;
-    margin: .3rem auto;
-    border-radius: 1rem;
+    width: 100%;
+    margin: .5rem auto;
+    border-radius: 5rem;
     position: relative;
 }
 
 .subtitle-overview, .contact-info {
     font-size: .7rem;
-    padding: .3rem .5rem;
+    padding: .2rem 1rem;
 }
 
 .phone-contact, .email-contact {
     position: absolute;
     right: 1%;
-    top: 15%;
+    top: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .overview {
+        width: 85%;
+    }
+
+    .contact {
+        width: 90%;
+    }
+
 }

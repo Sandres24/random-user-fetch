@@ -1,5 +1,6 @@
 .Card {
-    background-color: white;
+    background: url('../../assets/vectors/Ellipse14.svg') no-repeat 150% -2rem;
+    background-size: 400px;
     box-shadow: 0px 0px 25px black;
     width: 90%;
     max-width: 500px;

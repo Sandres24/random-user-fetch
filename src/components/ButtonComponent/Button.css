@@ -2,7 +2,7 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    left: 95%;
+    left: -5%;
     top: -2.5%;
 }
 
@@ -14,4 +14,15 @@
     border: 1px solid black;
     border-radius: 50%;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .Button {
+        width: 40px;
+        height: 40px;
+        left: 95%;
+        top: -2.5%;
+    }
+
 }
