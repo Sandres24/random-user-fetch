@@ -1,0 +1,13 @@
+.loading {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+}
+
+.loading>img {
+    width: 100%;
+    height: 100%;
+}
